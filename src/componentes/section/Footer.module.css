@@ -1,0 +1,29 @@
+.footerr{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding:1px;
+    justify-content: center;
+    
+}
+
+.footerr ul{
+    display: flex;
+    list-style: none;
+   
+}
+
+.footerr li{
+    margin: 1em;
+}
+
+.footerr p{
+    padding: 1em;
+    font-size: 18px;
+}
+
+.footerr a{
+    color: white !important;
+    text-decoration: none;
+}

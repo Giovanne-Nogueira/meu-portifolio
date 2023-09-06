@@ -1,0 +1,13 @@
+.Presentation{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.Presentation h3{
+    padding-bottom: 1em;
+    font-size: 22px;
+}
+
+.Presentation p{
+    font-size: 18px;
+}

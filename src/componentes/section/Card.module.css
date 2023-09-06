@@ -1,0 +1,31 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Card img{
+    width: 510px;
+    filter: drop-shadow(0px 8px 8px rgba(0,0 ,0.25,0.25));
+    margin-top: 1em;
+
+}
+    .Card img:hover{
+        transform: translateY(-10px);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+
+.Card section{
+    background: #01091CBF;
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin:20px;
+    height: 250px;
+    text-align: left;
+}
+
+.Card p{
+    font-size: 18px;
+}
