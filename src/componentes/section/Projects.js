@@ -1,8 +1,9 @@
 import styles from '../section/Projects.module.css'
 import Card from './Card'
 import lpdc from '../section/images/Projects/lpdnc.svg'
-import port from '../section/images/Projects/port.svg'
+import port from '../section/images/Projects/Port-dnc.jpg'
 import ButtonB from '../elements/ButtonB'
+import ccxp from '../section/images/Projects/CCXPimg.png'
 
 
 function Projects(){
@@ -18,12 +19,20 @@ function Projects(){
                 site="https://lucent-sfogliatella-aeacff.netlify.app"
             />
             <Card
+                 img={ccxp}
+                 title="COUNTDOWN"
+                 tech="HTML, CSS, JS "
+                 description="Projeto Front-End para realizar um countdown do evento CCXP2022." 
+                 repo='https://github.com/Giovanne-Nogueira/ProjetoCCXP2022'
+                 site='https://projeto-ccxp-2022-kappa.vercel.app/'
+            />
+            <Card
                  img={port}
-                 title="LP - ARQUITETURA"
-                 tech="HTML, CSS "
-                 description="Projeto Front-End para realizar uma landing-page de uma empresa de arquitetura fictícia." 
-                 repo='https://github.com/Giovanne-Nogueira/PROJETOLParquitetura'
-                 site="https://landingparq.netlify.app/"
+                 title="PORTIFÓLIO"
+                 tech="HTML, CSS,  JS, REACT "
+                 description="Projeto Front-End para realizar um portifólio dinâmico." 
+                 repo='https://github.com/Giovanne-Nogueira/meu-portifolio'
+                 site=''
             />
             <section>
                  <ButtonB
